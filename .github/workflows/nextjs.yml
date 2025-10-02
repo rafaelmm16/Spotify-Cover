@@ -67,6 +67,7 @@ jobs:
         with:
           node-version: "18"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+          cache-dependency-path: tailwind-spotify/pnpm-lock.yaml
       - name: Setup Pages
         uses: actions/configure-pages@v3
         with:
