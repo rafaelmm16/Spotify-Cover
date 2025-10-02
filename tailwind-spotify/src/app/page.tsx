@@ -72,7 +72,6 @@ export default function Home() {
                           rounded-full bg-green-400
                           text-black ml-auto mr-3 invisible
                           group-hover:visible
-                    
                     `}>
                 <Play />
               </button>
@@ -87,7 +86,6 @@ export default function Home() {
                           rounded-full bg-green-400
                           text-black ml-auto mr-3 invisible
                           group-hover:visible
-                    
                     `}>
                 <Play />
               </button>
@@ -102,7 +100,6 @@ export default function Home() {
                           rounded-full bg-green-400
                           text-black ml-auto mr-3 invisible
                           group-hover:visible
-                    
                     `}>
                 <Play />
               </button>
@@ -117,7 +114,6 @@ export default function Home() {
                           rounded-full bg-green-400
                           text-black ml-auto mr-3 invisible
                           group-hover:visible
-                    
                     `}>
                 <Play />
               </button>
@@ -132,7 +128,6 @@ export default function Home() {
                           rounded-full bg-green-400
                           text-black ml-auto mr-3   invisible
                           group-hover:visible
-                    
                     `}>
                 <Play />
               </button>
@@ -147,14 +142,13 @@ export default function Home() {
                           rounded-full bg-green-400
                           text-black ml-auto mr-3 invisible
                           group-hover:visible
-                    
                     `}>
                 <Play />
               </button>
             </a>
           </div>
           <div className='flex justify-between w-full items-center mt-10 mb-6' >
-            <h2 className='font-semibold text-2xl' >Feito para Antonio Quirino</h2>
+            <h2 className='font-semibold text-2xl' >Feito para Rafael</h2>
             <a href="">Mostrar tudo</a>
           </div>
           <div className='grid grid-cols-6 gap-4 mt-4'>
