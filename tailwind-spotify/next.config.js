@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/spotify-cover',
-  assetPrefix: '/spotify-cover',
+  basePath: '/Spotify-Cover',
+  assetPrefix: '/Spotify-Cover',
   images: {
     unoptimized: true,
     remotePatterns: [
