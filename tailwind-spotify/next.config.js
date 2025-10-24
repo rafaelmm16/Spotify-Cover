@@ -1,17 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '/Spotify-Cover',
-  assetPrefix: '/Spotify-Cover',
+  output: 'export', // Habilita a exportação estática
+  basePath: '/Spotify-Cover', // Define o subdiretório da aplicação
+  assetPrefix: '/Spotify-Cover', // Define o prefixo para os assets (CSS, JS, imagens)
   images: {
-    unoptimized: true,
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'picsum.photos',
-        pathname: '/seed/**',
-      },
-    ],
+    unoptimized: true, // Necessário para 'output: export'
   },
 }
 
