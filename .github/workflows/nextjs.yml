@@ -79,12 +79,14 @@ jobs:
       - name: Restore cache
         uses: actions/cache@v3
         with:
-          path: .next/cache
+          # 👇 Corrija o caminho para incluir o diretório de trabalho
+          path: ./tailwind-spotify/.next/cache
           # Generate a new cache whenever packages or source files change.
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock', '**/pnpm-lock.yaml') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+          # 👇 Ajuste os caminhos dos hashFiles para serem relativos à raiz ou use o diretório de trabalho
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/tailwind-spotify/pnpm-lock.yaml') }}-${{ hashFiles('**/tailwind-spotify/**.[jt]s', '**/tailwind-spotify/**.[jt]sx') }}
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
-            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock', '**/pnpm-lock.yaml') }}-
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/tailwind-spotify/pnpm-lock.yaml') }}-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
