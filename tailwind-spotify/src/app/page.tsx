@@ -63,7 +63,7 @@ export default function Home() {
 
           <div className='grid grid-cols-3 gap-4 mt-4'>
             <a className='bg-white/10 group flex gap-4 items-center rounded overflow-hidden hover:bg-white/20 transition-colors'>
-              <Image src="/glee.jpg" alt="Imagem do Album" width={95} height={95} />
+              <Image src="/Spotify-Cover/glee.jpg" alt="Imagem do Album" width={95} height={95} />
               <strong> This is Glee</strong>
               <button className={`
                           w-12 h-12
@@ -77,7 +77,7 @@ export default function Home() {
               </button>
             </a>
             <a className='bg-white/10 group flex gap-4 items-center rounded overflow-hidden hover:bg-white/20 transition-colors'>
-              <Image src="/sabrina.jpg" alt="Imagem do Album" width={90} height={90} />
+              <Image src="/Spotify-Cover/sabrina.jpg" alt="Imagem do Album" width={90} height={90} />
               <strong> This is Sabrina Carpenter</strong>
               <button className={`
                           w-12 h-12
@@ -91,7 +91,7 @@ export default function Home() {
               </button>
             </a>
             <a className='bg-white/10 group flex gap-4 items-center rounded overflow-hidden hover:bg-white/20 transition-colors'>
-              <Image src="/billie.jpg" alt="Imagem do Album" width={90} height={90} />
+              <Image src="/Spotify-Cover/billie.jpg" alt="Imagem do Album" width={90} height={90} />
               <strong> This is Billie Eilish</strong>
               <button className={`
                           w-12 h-12
@@ -105,7 +105,7 @@ export default function Home() {
               </button>
             </a>
             <a className='bg-white/10 group flex gap-4 items-center rounded overflow-hidden hover:bg-white/20 transition-colors'>
-              <Image src="/yung.jpg" alt="Imagem do Album" width={90} height={90} />
+              <Image src="/Spotify-Cover/yung.jpg" alt="Imagem do Album" width={90} height={90} />
               <strong> This is YUNG LI</strong>
               <button className={`
                           w-12 h-12
@@ -119,7 +119,7 @@ export default function Home() {
               </button>
             </a>
             <a className='bg-white/10 group flex gap-4 items-center rounded overflow-hidden hover:bg-white/20 transition-colors'>
-              <Image src="/matue4.webp" alt="Imagem do Album" width={90} height={90} />
+              <Image src="/Spotify-Cover/matue4.webp" alt="Imagem do Album" width={90} height={90} />
               <strong> This is Matuê </strong>
               <button className={`
                           w-12 h-12
@@ -133,7 +133,7 @@ export default function Home() {
               </button>
             </a>
             <a className='bg-white/10 group flex gap-4 items-center rounded overflow-hidden hover:bg-white/20 transition-colors'>
-              <Image src="/katseye.jpg" alt="Imagem do Album" width={90} height={90} />
+              <Image src="/Spotify-Cover/katseye.jpg" alt="Imagem do Album" width={90} height={90} />
               <strong> This is Katseye</strong>
               <button className={`
                           w-12 h-12
@@ -153,32 +153,32 @@ export default function Home() {
           </div>
           <div className='grid grid-cols-6 gap-4 mt-4'>
             <a className='bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/daily1.jpg" alt="Imagem do Album" width={156} height={156} />
+              <Image src="/Spotify-Cover/daily1.jpg" alt="Imagem do Album" width={156} height={156} />
               <strong className='font-semibold'>Daily Mix 1</strong>
               <span className='text-sm text-zinc-500'>Lady Gaga</span>
             </a>
             <a className='bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/daily2.jpg" alt="Imagem do Album" width={156} height={156} />
+              <Image src="/Spotify-Cover/daily2.jpg" alt="Imagem do Album" width={156} height={156} />
               <strong>Daily Mix 2</strong>
               <span className='text-sm text-zinc-500'>Lana del Rey</span>
             </a>
             <a className='bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/daily3.jpg" alt="Imagem do Album" width={156} height={156} />
+              <Image src="/Spotify-Cover/daily3.jpg" alt="Imagem do Album" width={156} height={156} />
               <strong>Daily Mix 3</strong>
               <span className='text-sm text-zinc-500'>Taylor Swift</span>
             </a>
             <a className='bg-white/5 flex flex-col p-3 rounded hover:bg-white/10'>
-              <Image src="/daily4.jpg" alt="Imagem do Album" width={156} height={156} />
+              <Image src="/Spotify-Cover/daily4.jpg" alt="Imagem do Album" width={156} height={156} />
               <strong>Daily Mix 4</strong>
               <span className='text-sm text-zinc-500'>The Weeknd</span>
             </a>
             <a className='bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/daily5.jpg" alt="Imagem do Album" width={156} height={156} />
+              <Image src="/Spotify-Cover/daily5.jpg" alt="Imagem do Album" width={156} height={156} />
               <strong>Daily Mix 5</strong>
               <span className='text-sm text-zinc-500'>Billie Eilish</span>
             </a>
             <a className='bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/daily6.jpg" alt="Imagem do Album" width={156} height={156} />
+              <Image src="/Spotify-Cover/daily6.jpg" alt="Imagem do Album" width={156} height={156} />
               <strong>Daily Mix 6</strong>
               <span className='text-sm text-zinc-500'>Eminem</span>
             </a>
@@ -187,7 +187,7 @@ export default function Home() {
       </div>
       <footer className='bg-zinc-800 border-t border-zinc-700 p-3 flex items-center justify-between fixed bottom-0 w-full'>
         <div className='flex itemns-center gap-3'>
-          <Image src="/album.jpg" alt="Imagem do Album" width={56} height={56} />
+          <Image src="/Spotify-Cover/U2.jpg" alt="Imagem do Album" width={56} height={56} />
           <div className='flex flex-col '>
             <strong className='font-normal text-zinc-500'>Walk On</strong>
             <span className='text-xs text-zinc-400'>U2</span>
