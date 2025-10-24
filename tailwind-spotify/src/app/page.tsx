@@ -40,12 +40,12 @@ export default function Home() {
             <a href="" className='text-sm text-zinc-400 hover:text-zink-100'>This is A-ha</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zink-100'>As minhas preferidas</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zink-100'>Hot 100 Rock</a>
-            <a href="" className='text-sm text-zinc-400 hover:text-zink-100'>The best of U2</a>
+            <a href="" className='text-sm text-zinc-400 hover:text-zink-100'>The best of Glee</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zink-100'>No Pain No Gain</a>
-            <a href="" className='text-sm text-zinc-400 hover:text-zink-100'>DJ Quirino</a>
+            <a href="" className='text-sm text-zinc-400 hover:text-zink-100'>DJ Juninho</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zink-100'>Summer Eletro Hits</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zink-100'>Forró Anos 90</a>
-            <a href="" className='text-sm text-zinc-400 hover:text-zink-100'>Clássicas do Axé</a>
+            <a href="" className='text-sm text-zinc-400 hover:text-zink-100'>Clássicas do Forró</a>
           </nav>
         </aside>
         <main className='flex-1 p-6'>
@@ -63,8 +63,8 @@ export default function Home() {
 
           <div className='grid grid-cols-3 gap-4 mt-4'>
             <a className='bg-white/10 group flex gap-4 items-center rounded overflow-hidden hover:bg-white/20 transition-colors'>
-              <Image src="/album.jpg" alt="Imagem do Album" width={95} height={95} />
-              <strong> This is U2</strong>
+              <Image src="/glee.jpg" alt="Imagem do Album" width={95} height={95} />
+              <strong> This is Glee</strong>
               <button className={`
                           w-12 h-12
                           flex  items-center
@@ -77,8 +77,8 @@ export default function Home() {
               </button>
             </a>
             <a className='bg-white/10 group flex gap-4 items-center rounded overflow-hidden hover:bg-white/20 transition-colors'>
-              <Image src="/album.jpg" alt="Imagem do Album" width={90} height={90} />
-              <strong> This is Duran Duran</strong>
+              <Image src="/sabrina.jpg" alt="Imagem do Album" width={90} height={90} />
+              <strong> This is Sabrina Carpenter</strong>
               <button className={`
                           w-12 h-12
                           flex  items-center
@@ -91,8 +91,8 @@ export default function Home() {
               </button>
             </a>
             <a className='bg-white/10 group flex gap-4 items-center rounded overflow-hidden hover:bg-white/20 transition-colors'>
-              <Image src="/album.jpg" alt="Imagem do Album" width={90} height={90} />
-              <strong> This is Metallica</strong>
+              <Image src="/billie.jpg" alt="Imagem do Album" width={90} height={90} />
+              <strong> This is Billie Eilish</strong>
               <button className={`
                           w-12 h-12
                           flex  items-center
@@ -105,8 +105,8 @@ export default function Home() {
               </button>
             </a>
             <a className='bg-white/10 group flex gap-4 items-center rounded overflow-hidden hover:bg-white/20 transition-colors'>
-              <Image src="/album.jpg" alt="Imagem do Album" width={90} height={90} />
-              <strong> This is Muse</strong>
+              <Image src="/yung.jpg" alt="Imagem do Album" width={90} height={90} />
+              <strong> This is YUNG LI</strong>
               <button className={`
                           w-12 h-12
                           flex  items-center
@@ -119,8 +119,8 @@ export default function Home() {
               </button>
             </a>
             <a className='bg-white/10 group flex gap-4 items-center rounded overflow-hidden hover:bg-white/20 transition-colors'>
-              <Image src="/album.jpg" alt="Imagem do Album" width={90} height={90} />
-              <strong> This is Barão Vermelho </strong>
+              <Image src="/matue4.webp" alt="Imagem do Album" width={90} height={90} />
+              <strong> This is Matuê </strong>
               <button className={`
                           w-12 h-12
                           flex  items-center
@@ -133,8 +133,8 @@ export default function Home() {
               </button>
             </a>
             <a className='bg-white/10 group flex gap-4 items-center rounded overflow-hidden hover:bg-white/20 transition-colors'>
-              <Image src="/album.jpg" alt="Imagem do Album" width={90} height={90} />
-              <strong> This is Depeche Mode</strong>
+              <Image src="/katseye.jpg" alt="Imagem do Album" width={90} height={90} />
+              <strong> This is Katseye</strong>
               <button className={`
                           w-12 h-12
                           flex  items-center
@@ -153,34 +153,34 @@ export default function Home() {
           </div>
           <div className='grid grid-cols-6 gap-4 mt-4'>
             <a className='bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/album.jpg" alt="Imagem do Album" width={156} height={156} />
+              <Image src="/daily1.jpg" alt="Imagem do Album" width={156} height={156} />
               <strong className='font-semibold'>Daily Mix 1</strong>
-              <span className='text-sm text-zinc-500'>Red Hot Chilli pepers</span>
+              <span className='text-sm text-zinc-500'>Lady Gaga</span>
             </a>
             <a className='bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/album.jpg" alt="Imagem do Album" width={156} height={156} />
+              <Image src="/daily2.jpg" alt="Imagem do Album" width={156} height={156} />
               <strong>Daily Mix 2</strong>
-              <span className='text-sm text-zinc-500'>Red Hot Chilli pepers</span>
+              <span className='text-sm text-zinc-500'>Lana del Rey</span>
             </a>
             <a className='bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/album.jpg" alt="Imagem do Album" width={156} height={156} />
+              <Image src="/daily3.jpg" alt="Imagem do Album" width={156} height={156} />
               <strong>Daily Mix 3</strong>
-              <span className='text-sm text-zinc-500'>Red Hot Chilli pepers</span>
+              <span className='text-sm text-zinc-500'>Taylor Swift</span>
             </a>
             <a className='bg-white/5 flex flex-col p-3 rounded hover:bg-white/10'>
-              <Image src="/album.jpg" alt="Imagem do Album" width={156} height={156} />
+              <Image src="/daily4.jpg" alt="Imagem do Album" width={156} height={156} />
               <strong>Daily Mix 4</strong>
-              <span className='text-sm text-zinc-500'>Red Hot Chilli pepers</span>
+              <span className='text-sm text-zinc-500'>The Weeknd</span>
             </a>
             <a className='bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/album.jpg" alt="Imagem do Album" width={156} height={156} />
+              <Image src="/daily5.jpg" alt="Imagem do Album" width={156} height={156} />
               <strong>Daily Mix 5</strong>
-              <span className='text-sm text-zinc-500'>Red Hot Chilli pepers</span>
+              <span className='text-sm text-zinc-500'>Billie Eilish</span>
             </a>
             <a className='bg-white/5 flex flex-col gap-2 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/album.jpg" alt="Imagem do Album" width={156} height={156} />
+              <Image src="/daily6.jpg" alt="Imagem do Album" width={156} height={156} />
               <strong>Daily Mix 6</strong>
-              <span className='text-sm text-zinc-500'>Red Hot Chilli pepers</span>
+              <span className='text-sm text-zinc-500'>Eminem</span>
             </a>
           </div>
         </main>
