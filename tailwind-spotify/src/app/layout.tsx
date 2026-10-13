@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Spotify',
-  description: 'Listen to Music.',
+  title: 'Spotify – Web Player',
+  description: 'Música para todos os momentos. Clone moderno do Spotify.',
 }
 
 export default function RootLayout({
@@ -15,8 +15,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className="bg-zinc-900 text-zinc-50">{children}</body>
+    <html lang="pt-BR" className="dark h-full">
+      <body className={`${inter.className} bg-black text-zinc-100 antialiased selection:bg-[#1ed760] selection:text-black h-full overflow-hidden`}>
+        {children}
+      </body>
     </html>
   )
 }

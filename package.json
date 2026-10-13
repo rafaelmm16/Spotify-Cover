@@ -1,0 +1,11 @@
+{
+  "name": "spotify-cover",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix tailwind-spotify run dev",
+    "build": "npm --prefix tailwind-spotify run build",
+    "start": "npm --prefix tailwind-spotify run start",
+    "lint": "npm --prefix tailwind-spotify run lint"
+  }
+}
